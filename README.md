@@ -1,5 +1,5 @@
 # forum-api
-CRUD Spring Boot
+CRUD Simples de Topicos, criado com o framework Spring
 
 ## Setup do projeto
 
