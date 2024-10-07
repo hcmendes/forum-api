@@ -1,1 +1,78 @@
-/target/
+# Ignore target directory (Maven)
+target/
+
+# Ignore build directory (Gradle)
+build/
+
+# Ignore Maven local repository
+.mvn/
+**/mvnw*
+**/mvnw.cmd
+
+# Ignore IntelliJ IDEA files
+/.idea/
+/*.iml
+/*.iws
+/.idea/
+/*.ipr
+
+# Ignore Eclipse project files
+/.project
+/.classpath
+/.settings/
+/.apt_generated/
+/.springBeans/
+
+# Ignore NetBeans project files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore STS project files
+.springBeans
+
+# Ignore temporary files and OS-specific files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore generated sources and documentation
+/generated/
+
+# Ignore Lombok config
+.lombok.config
+
+# Ignore application config files that may contain sensitive information
+application.yml
+application.properties
+
+# Ignore log files
+/logs/
+/*.log
+
+# Ignore IntelliJ IDEA project directories
+.idea/
+/*.iml
+.idea/workspace.xml
+
+# Ignore Node.js modules (if using frontend in the project)
+node_modules/
+
+# Ignore Docker-related files
+docker-compose.override.yml
+
+# Ignore test result files
+/test-output/
+/test-results/
+
+# Ignore JRebel configuration
+/.rebel.xml
+
+# Ignore Spring Boot devtools (if using devtools)
+.spring-boot-devtools.properties
